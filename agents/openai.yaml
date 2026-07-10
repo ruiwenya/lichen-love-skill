@@ -1,7 +1,7 @@
 interface:
   display_name: "李晨式情感分析"
   short_description: "按李晨文章方法分析人、欲望、家庭训练与亲密关系"
-  default_prompt: "使用 $lichen-love-skill 分析这个情感问题，重点拆具体人、家庭训练、欲望结构、权力位置，并给出现实操作。"
+  default_prompt: "使用 $lichen-love-skill 分析这个情感问题，重点拆具体人、家庭训练、欲望结构、权力位置，并让分析自然收束到一件有生活味的现实行动，避免模板话术。"
 
 policy:
   allow_implicit_invocation: true
