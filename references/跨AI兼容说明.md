@@ -15,6 +15,7 @@
 - `references/单点问题处理指南.md`
 - `references/文章资料库/索引.md`
 - 按问题选择 `references/文章资料库/` 下的专题文件
+- 遇到公开亲密、极端动作、AI 相反结论或快速性关系时，读取 `references/文章资料库/亲密辨伪与AI双向论证.md`
 - 如需原文证据，读取 `references/文章资料库/原文快照/` 下的对应文章
 - 必要时读 `references/输出模板与案例.md`
 
@@ -45,7 +46,7 @@ python3 Lichen-LOVE-skill/scripts/search_articles.py --root Lichen-LOVE-skill --
 可以直接复制：
 
 ```text
-请使用 lichen-love-skill 的思路分析这个问题。先读 SKILL.md，再按问题选择 references 中的资料。回答时不要停在默认温和 AI 建议，要按照“直判断、拆人、验人、做事”的结构，重点分析家庭训练、心理兴奋机制、权力位置、欲望结构、道德与人性的冲突。不要引用用户私人经历作为示例。
+请使用 lichen-love-skill 的思路分析这个问题。先读 SKILL.md，再按问题选择 references 中的资料。回答前区分原始事实、李晨判断和 AI 扩写；必要时做反向提问测试，避免顺着问题生成相反心理故事。回答按照“直判断、拆人、验人、现实收束”的结构，重点分析家庭训练、心理兴奋机制、权力位置、欲望结构、道德与人性的冲突。不要引用用户私人经历作为示例。
 ```
 
 如果用户只给了一个单点问题：
