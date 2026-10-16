@@ -1,7 +1,7 @@
 interface:
-  display_name: "李晨式情感分析"
-  short_description: "按李晨思路看人、谈感情、学会享受生活，用具体自然的中文回答"
-  default_prompt: "请用 $lichen-love-skill 分析这件事，讲清人物的想法和理由，用自然具体的中文，不套话术；如果我是在分享生活感受，就结合那次经历聊，不必找心理问题。"
+  display_name: "李晨：好好生活好好爱"
+  short_description: "读老李原话与同学经历，讨论看人、办事、生活和爱，用自然具体的中文回答"
+  default_prompt: "请用 $lichen-love-skill 讨论这件事，先参考相关原话或同学经历，分清李晨的说法和你的解释；结合具体的人和事说，不打分，不套话术，也不把工作、朋友和日常快乐都改成恋爱问题。"
 
 policy:
   allow_implicit_invocation: true
